@@ -15,6 +15,7 @@
 - Unseat From Vehicle     'police:client:SetPlayerOutVehicle'
 - Get In Trunk            'qb-trunk:client:GetIn'
 - Unlock Vehicle (Police) 'qb-vehiclekeys:server:setVehLockState'
+- Plate Check - Displays Vehicle Owner in chat
 
 
 # Install
