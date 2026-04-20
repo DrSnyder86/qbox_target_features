@@ -22,6 +22,6 @@
 ## Ensure it starts after 'ox_lib' and 'ox_target'
 
 # Required
-## Qbcore or Qbox Framework obviously guys
+## Qbcore or Qbox Framework
 ## ox_lib    https://github.com/overextended/ox_lib
 ## ox_target https://github.com/overextended/ox_target 
