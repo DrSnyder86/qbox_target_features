@@ -287,5 +287,18 @@ exports.ox_target:addGlobalVehicle({
             lib.showContext('vehicle_status_menu')
         end
     },
+    {
+        name = 'check_vehicle_owner',
+        icon = 'fa-solid fa-id-card',
+        label = 'Check Owner',
+        distance = 2.5,
+
+        onSelect = function(data)
+            local vehicle = data.entity
+            local plate = GetVehicleNumberPlateText(vehicle)
+
+            TriggerServerEvent('ersi:server:getVehicleOwner', plate)
+        end
+    },
 
 })
